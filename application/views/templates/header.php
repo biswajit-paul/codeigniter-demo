@@ -2,6 +2,7 @@
   <head>
     <title>CoderWall - <?php echo $title; ?></title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/styles.css">
   </head>
   <body>
 
@@ -30,10 +31,8 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Action</a></li>
-							<li><a href="#">Another action</a></li>
-							<li><a href="#">Something else here</a></li>
-							<li><a href="#">Separated link</a></li>
+							<li><a href="#">My Account</a></li>
+							<li><a href="#">Log out</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -41,4 +40,4 @@
 		</div>
 	</nav>
 
-	<div class="container">
+	<div class="container main">
